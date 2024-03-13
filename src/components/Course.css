@@ -1,0 +1,51 @@
+.course{
+    max-width: 1500px;
+    height: 1540px;
+    color: #fff;
+    background-color:#FE938C;
+}
+.course-section{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.course-section h1{
+    padding-top: 50px;
+}
+.course-section p{
+    max-width: 650px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.course-section ul{
+    margin-top: 20px;
+    max-width: 700px;
+    line-height: 25px;
+}
+.course-section ul span{
+    font-size: 17px;
+    font-weight: 700;
+    color:  #4281A4;
+}
+.enroll{
+    margin-top: 20px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    font-weight: 600;
+    color: #4281A4;
+    cursor: pointer;
+}
+.enroll:hover{
+    background: transparent;
+    color: #fff;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 768px){
+  .course{
+    height: 2300px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }  
+}

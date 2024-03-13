@@ -1,0 +1,61 @@
+.hero{
+    height: 580px;
+    color: #fff;
+    background-color: rgb(177, 72, 72);
+    padding-top: 0;
+}
+.hero-section{
+    max-width: 1100px;
+    display: flex;
+     padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-section h2{
+    margin-top: 40px;
+}
+.hero-section p{
+    max-width: 590px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.hero-img img{
+    border-radius: 50%;
+}
+.hero-section button{
+    margin-top: 20px;
+    height: 45px;
+    width: 230px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.hero-section button:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 768px){
+    .hero{
+        height: 650px;
+    }
+    .hero-section{
+        overflow: hidden;
+        display: block;
+        padding-top: 20px;
+       padding-left: 20px; 
+    }
+    .hero-section h2{
+        max-width: 300px;
+    }
+    .hero-section p{
+        max-width: 350px;
+    }
+    .hero-img img{
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+}
